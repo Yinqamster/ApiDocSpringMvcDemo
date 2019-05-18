@@ -1,0 +1,25 @@
+{
+  "name": "api-doc test",
+  "version": "0.0.1",
+  "description": "api-doc test API",
+  "title": "api-doc test Api",
+  "url" : "http://localhost:8080/apiDoc",
+  "sampleUrl" : "http://localhost:8080/apiDoc",
+  "header": {
+    "title": "My own header title",
+    "filename": "header.md"
+  },
+  "footer": {
+    "title": "My own footer title",
+    "filename": "footer.md"
+  },
+  "order": [
+      "Tag1Test1",
+	  "Tag1Test2"
+  ],
+  "template": {
+    "forceLanguage": "zh_cn",
+    "withCompare": true,
+    "withGenerator": true
+  }
+}
